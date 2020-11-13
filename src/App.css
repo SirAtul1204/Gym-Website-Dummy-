@@ -211,11 +211,16 @@ body,
 }
 
 #trainer-row1 {
+  -webkit-animation-name: FadeEntry;
   animation-name: FadeEntry;
   animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
   animation-duration: 1s;
+  -webkit-animation-duration: 1s;
   animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
 
 #trainer-row2 {
