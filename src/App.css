@@ -197,9 +197,9 @@ body,
   align-items: center;
 }
 
-.trainers-table tr {
+/* .trainers-table tr {
   opacity: 0%;
-}
+} */
 
 @keyframes FadeEntry {
   from {
