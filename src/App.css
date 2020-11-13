@@ -65,7 +65,7 @@ body,
 }
 
 .intro p {
-  opacity: 0%;
+  opacity: 0;
   letter-spacing: 0.15em;
   animation-name: fadeIn;
   animation-delay: 2s;
@@ -76,18 +76,18 @@ body,
 
 @keyframes fadeIn {
   0% {
-    opacity: 0%;
+    opacity: 0;
   }
   35% {
-    opacity: 100%;
+    opacity: 1;
   }
   100% {
-    opacity: 0%;
+    opacity: 0;
   }
 }
 
 .intro p:hover {
-  opacity: 100%;
+  opacity: 1;
   animation-duration: 0s;
 }
 
@@ -198,16 +198,7 @@ body,
 }
 
 .trainers-table tr {
-  opacity: 0%;
-}
-
-@keyframes FadeEntry {
-  from {
-    opacity: 0%;
-  }
-  to {
-    opacity: 100%;
-  }
+  opacity: 0;
 }
 
 #trainer-row1 {
@@ -466,4 +457,13 @@ body,
 #modal-send-qr-again:hover {
   opacity: 80%;
   cursor: pointer;
+}
+
+@keyframes FadeEntry {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
