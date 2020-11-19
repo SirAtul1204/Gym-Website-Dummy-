@@ -129,7 +129,7 @@ body,
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 8vw;
+  width: 20vw;
 }
 
 .social-links img {
@@ -470,6 +470,25 @@ body,
   }
 }
 
+.mobile-major-nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #000136;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+.mobile-major-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0.5% 0%;
+}
+
 @media screen and (max-width: 1600px) {
   .nav-link {
     width: 12vw;
@@ -614,6 +633,22 @@ body,
   .form-input submit {
     height: 6vh;
   }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .major-nav {
+    display: none;
+  }
+
+  .hamburger:hover {
+    opacity: 0.8;
+  }
+
+  .hamburger:active {
+    background-color: #ffffff;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -635,5 +670,14 @@ body,
 
   .trainer-info {
     font-size: 12px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .social-links {
+    justify-content: space-around;
+    width: 70vw;
   }
 }
