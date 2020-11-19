@@ -5,17 +5,17 @@ import Details from "../Components/Contact/Details";
 import Footer from "../Footer";
 
 class Contact extends Component {
-	state = {};
-	render() {
-		return (
-			<React.Fragment>
-				<Nav pageName="contact" />
-				<Intro />
-				<Details />
-				<Footer />
-			</React.Fragment>
-		);
-	}
+  state = {};
+  render() {
+    return (
+      <React.Fragment>
+        <Nav pageName="contact" />
+        <Intro />
+        <Details />
+        <Footer />
+      </React.Fragment>
+    );
+  }
 }
 
 export default Contact;

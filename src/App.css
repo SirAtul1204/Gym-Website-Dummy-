@@ -119,9 +119,9 @@ body,
   align-items: center;
   background-color: #000136;
   color: #ffffff;
-  /* position: absolute;
-  bottom: -2px; */
   width: 100vw;
+  /* position: absolute;
+  bottom: 0px; */
 }
 
 .social-links {
@@ -261,6 +261,7 @@ body,
 
 .contact-details {
   padding: 2%;
+  height: 80vh;
 }
 
 .contact-details-link {
@@ -312,6 +313,7 @@ body,
   justify-content: center;
   align-items: center;
   margin-bottom: 2%;
+  /* height: 95vh; */
 }
 
 .form form {
@@ -465,5 +467,173 @@ body,
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .nav-link {
+    width: 12vw;
+  }
+
+  .form form {
+    width: 25vw;
+  }
+
+  .form-input input,
+  .form-input select {
+    width: 24vw;
+  }
+
+  .form-input label {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .nav-link {
+    font-size: 18px;
+  }
+  .intro img {
+    width: 300px;
+    height: 300px;
+  }
+  .about-imgs {
+    flex-direction: column;
+    height: 1600px;
+  }
+  .about-imgs img {
+    width: 400px;
+  }
+  /* .form {
+    height: 95vh;
+  } */
+
+  .form form {
+    width: 40vw;
+  }
+
+  .form-input input,
+  .form-input select {
+    width: 38vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .major-nav {
+    /* display: none; */
+  }
+
+  .intro img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-imgs {
+    flex-direction: column;
+    height: 1200px;
+  }
+
+  .form {
+    background-color: #141414;
+    width: 100vw;
+  }
+
+  .form form {
+    width: 50vw;
+  }
+
+  .form-input input,
+  .form-input select {
+    width: 49vw;
+  }
+
+  .form-error-msg {
+    font-size: 18px;
+  }
+
+  .form-submit button {
+    width: 30vw;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact-details-link {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact-details-link {
+    width: 80vw;
+  }
+
+  .form form {
+    width: 100vw;
+  }
+
+  .form-input input,
+  .form-input select {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .about h1,
+  .trainers-intro h1,
+  .buyMembership-intro h1 {
+    font-size: 43px;
+  }
+  .about p,
+  .about ul li,
+  .trainers-intro p,
+  .buyMembership-intro p {
+    font-size: 16px;
+  }
+
+  .table-image img {
+    width: 150px;
+  }
+  .trainer-info {
+    font-size: 16px;
+  }
+
+  .trainers-table table {
+    width: 100vw;
+  }
+
+  .form-input input,
+  .form-input submit {
+    height: 6vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-imgs img {
+    width: 250px;
+  }
+
+  .about-imgs {
+    height: 900px;
+  }
+
+  .table-image img {
+    width: 100px;
+  }
+
+  .table-image p {
+    font-size: 16px;
+  }
+
+  .trainer-info {
+    font-size: 12px;
   }
 }
